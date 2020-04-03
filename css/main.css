@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url(../images/background.jfif);
+  background-size: cover;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.cell,
+.lot-btn {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  box-shadow: 0 0 4px #7d6608;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  background-color: #fdd835;
+  margin: 2px;
+  user-select: none;
+  transition: all 0.2s;
+}
+
+.cell-empty {
+  width: 104px;
+  height: 104px;
+}
+
+.act {
+  background-color: #fbc02d;
+}
+
+.sel {
+  background-color: #fbc02d;
+}
+.lot-btn {
+  background-color: #ff7043;
+  box-shadow: 0 0 4px #bf360c;
+  cursor: pointer;
+}
+
+.lot-btn:hover {
+  background-color: #ff8a65;
+}
+
+.lot-btn:active {
+  background-color: #ff5722;
+}
